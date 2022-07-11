@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    display: inline;
+    padding: 0px;
+    margin: 0;
+    width: 100%;
+}
+
+#nav-bar {
+    background-color: black;
+
+    overflow: hidden;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #cc0000;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    padding: 1em;
+    overflow: hidden;
+}
+
+#header-img {
+    padding: 8px;
+    width: 30px;
+    height: 30px
+}
+
+#form {
+    margin: 10x;
+}
+
+#about {
+    position: relative;
+    padding-top: 100px
+}
