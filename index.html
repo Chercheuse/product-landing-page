@@ -6,32 +6,44 @@
   <link rel="stylesheet" href="styles.css" />
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <title>French is easy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <header id='header'>
-    <nav id='nav-bar'>
-      <img class='header__logo' src="img\eiffel-tower.png" alt='Tour Eiffel Logo'>
-      <p class="header__school-name">French is<br> <em>easy</em></p>
+  <header class='header'>
+    <nav class='nav-bar'>
+      <div class="header__container">
+        <img class='header__logo' src="img\eiffel-tower1.png" alt='Tour Eiffel Logo'>
+        <p class="header__school-name">French is<br> <span class="extract-name">easy</span></p>
+      </div>
       <div class="nav-bar__menu">
         <a class='nav-link' href='#about'>About</a>
-        <a class='nav-link' href='#price'>Choose your plan</a>
+        <a class='nav-link' href='#choose_your_plan'>Choose your plan</a>
         <a class='nav-link' href='#home'>Home</a>
       </div>
     </nav>
   </header>
-  <div id='about'>
-    <h2> About product</h2>
-
-  </div>
-  <div id='price'>
-    <h2> Choose your plan</h2>
-  </div>
-  <div id='home'>
-    <h2>Home</h2>
-    <p></p>
-  </div>
-
+  <section id='about'>
+    <div class="circle">
+      <h2> About product</h2>
+    </div>
+  </section>
+<hr>
+  <section id='choose_your_plan'>
+    <div class="circle">
+      <h2> Choose your plan</h2>
+    </div>
+  </section>
+<hr>
+  <section id='home'>
+    <div class="circle">
+      <h2>Home</h2>
+      <p></p>
+    </div>
+  </section>
+<hr>
 </body>
 
 </html>

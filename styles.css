@@ -4,10 +4,92 @@
     padding: 0;
 }
 
-.header {
-    padding:10px;
-    background-color:rgb(188, 54, 9);
+body {
+    background-color: lemonchiffon;
 }
 
-.nav-bar__menu{text-decoration: none;
-color:floralwhite}
+.header {
+    background-color: rgb(138, 103, 168, 0.7);
+    height: 75px;
+    border-bottom: 2px solid rgba(60, 0, 84, 0.929);
+}
+
+.header__logo {
+    width: 50px;
+    height: 60px;
+    display: block;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__school-name {
+    color: rgba(60, 0, 84, 0.929);
+    font-family: Georgia;
+    font-size: 24px;
+    line-height: 25px;
+}
+
+.extract-name {
+    color: rgba(60, 0, 84, 0.929);
+    font-family: 'homemade apple';
+    font-size: 28px;
+    text-shadow: 2px 2px 5px rgb(241, 62, 92);
+}
+
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-bar__menu {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    align-items: center;
+
+
+}
+
+.nav-link {
+    color: rgba(60, 0, 84, 0.929);
+    font-family: Georgia;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px lemonchiffon;
+}
+
+.circle {
+
+
+    border: 20px solid rgba(203, 181, 224, 0.5);
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+#about {
+    padding: 20px 20px;
+    margin: 35px 0;
+}
+
+#choose_your_plan {
+    padding: 20px 20px;
+    margin: 35px 0;
+}
+
+#home {
+    padding: 20px 20px;
+    margin: 35px 0;
+}
+
+hr{color:rgba(60, 0, 84, 0.929)}
+
+h2{padding: 0;
+margin:100px 100px;}
