@@ -102,11 +102,7 @@
         padding: 40px 0 0 20px;
     }
 
-    /*.circle {
-        width: 100px;
-        height: 100px;
-        display: block;
-    }*/
+
     .about__text {
         color: dimgray;
         margin-left: 20px;
@@ -526,7 +522,7 @@
         max-width: 1200px;
         height: 500px;
         background-size: cover;
-     
+
     }
 
     .header {
@@ -559,9 +555,10 @@
         align-items: center;
     }
 
-    .extract-name{font-family: 'Amita';
-    line-height: 25px;
-    padding: 40px 0 0 20px;
+    .extract-name {
+        font-family: 'Amita';
+        line-height: 25px;
+        padding: 40px 0 0 20px;
     }
 
 
@@ -607,8 +604,7 @@
         background-color: rgb(63, 63, 255);
         display: block;
         margin: 50px 0 0 20px;
-        padding:10px
-
+        padding: 10px
     }
 
     .action-button:hover {
@@ -728,7 +724,7 @@
         font-size: 26px;
         font-family: 'Lato';
         font-weight: bold;
-        bottom:0;
+        bottom: 0;
     }
 
     #about {
