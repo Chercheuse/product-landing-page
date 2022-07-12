@@ -4,19 +4,15 @@
     padding: 0;
 }
 
-body {
-    background-color: lemonchiffon;
-}
-
 .header {
-    background-color: rgb(138, 103, 168, 0.7);
-    height: 75px;
-    border-bottom: 2px solid rgba(60, 0, 84, 0.929);
+    background-color: white;
+    height: 60px;
+    border-bottom: 1px solid rgba(175, 210, 252, 0.929);
 }
 
 .header__logo {
     width: 50px;
-    height: 60px;
+    height: 40px;
     display: block;
 }
 
@@ -27,48 +23,101 @@ body {
 }
 
 .header__school-name {
-    color: rgba(60, 0, 84, 0.929);
-    font-family: Georgia;
-    font-size: 24px;
-    line-height: 25px;
+    color: rgb(251, 5, 5);
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .extract-name {
-    color: rgba(60, 0, 84, 0.929);
-    font-family: 'homemade apple';
-    font-size: 28px;
-    text-shadow: 2px 2px 5px rgb(241, 62, 92);
+    color: rgb(251, 7, 7);
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: bold;
 }
 
 
 .nav-bar {
     display: flex;
     flex-direction: row;
+
 }
 
 .nav-bar__menu {
     display: flex;
-    justify-content: space-around;
+    justify-content: right;
+    gap: 20px;
     flex: 1;
     align-items: center;
-
-
+    padding-right: 20px;
 }
 
 .nav-link {
-    color: rgba(60, 0, 84, 0.929);
-    font-family: Georgia;
-    font-size: 24px;
+    color: black;
+    font-family: Lato;
+    font-size: 18px;
     text-decoration: none;
     font-weight: bold;
-    text-transform: uppercase;
-    text-shadow: 2px 2px 5px lemonchiffon;
+    text-transform: capitalize;
+    padding: 15px
+}
+
+.nav-link:hover {
+    color: blue;
+}
+
+.background-image {
+    display: block;
+    position: relative;
+    left: 280px;
+    max-width: 1000px;
+}
+
+.action-button {
+    border-radius: 15px;
+    background-color: rgb(63, 63, 255);
+    display:block;
+    position: absolute;
+    left: 130px;
+    top:350px;
+ 
+}
+
+
+
+.content__page {
+    position: relative;
+}
+
+.content__extract-name {
+    color: red;
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    font-size: 100px;
+    font-family: 'Maklight';
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+
+.extract-name_special {
+    color: red;
+    font-family: 'Maklight';
+    font-size: 100px;
 }
 
 .circle {
-
-
-    border: 20px solid rgba(203, 181, 224, 0.5);
+    border: 20px solid rgba(246, 123, 123, 0.356);
     border-radius: 50%;
     height: 300px;
     width: 300px;
@@ -76,20 +125,37 @@ body {
 
 #about {
     padding: 20px 20px;
-    margin: 35px 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
 }
 
-#choose_your_plan {
+#plans {
     padding: 20px 20px;
-    margin: 35px 0;
+    background-color: white;
+
 }
 
-#home {
+#contact {
     padding: 20px 20px;
-    margin: 35px 0;
+    background-color: white;
+
 }
 
-hr{color:rgba(60, 0, 84, 0.929)}
+hr {
+    color: rgba(62, 62, 62, 0.929)
+}
 
-h2{padding: 0;
-margin:100px 100px;}
+h2 {
+    font-family: 'homemade apple';
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 100px 0 50px;
+    font-size: 46px;
+}
+
+.background-image {
+    display: block;
+    width: 100%;
+}

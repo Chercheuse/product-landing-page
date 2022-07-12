@@ -6,9 +6,10 @@
   <link rel="stylesheet" href="styles.css" />
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <title>French is easy</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -19,31 +20,41 @@
         <p class="header__school-name">French is<br> <span class="extract-name">easy</span></p>
       </div>
       <div class="nav-bar__menu">
-        <a class='nav-link' href='#about'>About</a>
-        <a class='nav-link' href='#choose_your_plan'>Choose your plan</a>
-        <a class='nav-link' href='#home'>Home</a>
+        <a class='nav-link' href='#about'>About us</a>
+        <a class='nav-link' href='#plans'>Plans</a>
+        <a class='nav-link' href='#contact'>Contact</a>
       </div>
     </nav>
   </header>
-  <section id='about'>
-    <div class="circle">
-      <h2> About product</h2>
-    </div>
+  <section class="content">
+    <div class="content__page">
+      <img class='background-image' alt="The girl is learning french sitting on the dictionary" src="img\frenchjpg.jpg">
+      <div class='flex'>
+        <h1 class="content__extract-name">French is <span class="extract-name_special">easy</span></h1>
+
+        <button type="button" class="action-button"><a href="#plans" class="action-text">Choose your plan</a></button>
+      </div>
+      <section id='about'>
+        <div class="circle">
+          <h2> About us</h2>
+        </div>
+      </section>
+      <hr>
+      <section id='plan'>
+        <div class="circle">
+          <h2> Plans</h2>
+        </div>
+      </section>
+      <hr>
+      <section id='contact'>
+        <div class="circle">
+          <h2>Contact</h2>
+          <p></p>
+        </div>
+      </section>
+      <hr>
   </section>
-<hr>
-  <section id='choose_your_plan'>
-    <div class="circle">
-      <h2> Choose your plan</h2>
-    </div>
-  </section>
-<hr>
-  <section id='home'>
-    <div class="circle">
-      <h2>Home</h2>
-      <p></p>
-    </div>
-  </section>
-<hr>
+
 </body>
 
 </html>
