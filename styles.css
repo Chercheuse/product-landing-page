@@ -80,12 +80,27 @@
 
 .action-button {
     border-radius: 15px;
+    border: 0;
     background-color: rgb(63, 63, 255);
-    display:block;
+    display: block;
     position: absolute;
-    left: 130px;
-    top:350px;
- 
+    left: 100px;
+    top: 350px;
+    width: 180px;
+    height: 40px;
+
+}
+
+.action-button:hover {
+    background-color: red;
+}
+
+.action-text {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-weight: bold;
 }
 
 
@@ -98,25 +113,15 @@
     color: red;
     position: absolute;
     top: 80px;
-    left: 60px;
-    font-size: 100px;
-    font-family: 'Maklight';
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-
-
+    left: 100px;
+    font-size: 90px;
+    font-family: 'Amita';
+    line-height: 100px;
 }
-
-
-
-.extract-name_special {
-    color: red;
-    font-family: 'Maklight';
-    font-size: 100px;
-}
+/* finished*/
 
 .circle {
+    padding: 20px 20px;
     border: 20px solid rgba(246, 123, 123, 0.356);
     border-radius: 50%;
     height: 300px;
