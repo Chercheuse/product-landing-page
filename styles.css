@@ -4,6 +4,261 @@
     padding: 0;
 }
 
+@media (max-width:500px) {
+    .flex {
+        background-image: url(img/frenchjpg.jpg);
+        max-width: 390px;
+        height: 200px;
+        background-size: cover;
+        margin: auto;
+    }
+
+    .header {
+        height: 40px;
+        background-color: white;
+        border-bottom: 1px solid rgba(175, 210, 252, 0.929)
+    }
+
+    .header__logo {
+        width: 50px;
+        height: 40px;
+        display: block;
+    }
+
+    .header__school-name {
+        color: rgb(251, 5, 5);
+        font-family: 'Lato';
+        font-size: 14px;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .nav-bar__menu {
+        display: flex;
+        justify-content: right;
+        gap: 10px;
+        flex: 1;
+        align-items: center;
+        padding-right: 10px;
+    }
+
+    .nav-link {
+        color: black;
+        font-family: 'Lato';
+        font-size: 14px;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: capitalize;
+        padding: 0 15px;
+    }
+
+    .nav-link:hover {
+        color: blue;
+    }
+
+    .action-button {
+        border-radius: 15px;
+        border: 0;
+        background-color: rgb(63, 63, 255);
+        padding: 5px 10px;
+        display: block;
+        margin-top: 25px;
+
+    }
+
+    .action-button:hover {
+        background-color: red;
+    }
+
+    .action-text {
+        text-decoration: none;
+        color: white;
+        font-family: 'Lato';
+        font-size: 14px;
+
+    }
+
+
+    .content__extract-name {
+        color: red;
+        font-size: 30px;
+        font-family: 'Amita';
+        line-height: 25px;
+        padding: 40px 0 0 20px;
+    }
+
+    /*.circle {
+        width: 100px;
+        height: 100px;
+        display: block;
+    }*/
+    .about__text {
+        color: dimgray;
+        margin-left: 20px;
+        font-family: 'Lato';
+        font-size: 16px;
+
+    }
+
+    article {
+        max-width: 100%;
+        height: 250px;
+        background-color: rgba(213, 232, 254, 0.929);
+        text-align: center;
+        border: 1px solid blue;
+
+    }
+
+    li {
+        list-style-type: none;
+        line-height: 25px;
+    }
+
+    ul {
+        color: dimgray;
+        font-size: 20px;
+        font-family: 'Lato';
+        font-weight: 400;
+
+    }
+
+    .price {
+        color: red;
+        font-size: 26px;
+        font-family: 'Lato';
+        font-weight: bold;
+        margin-top: 30px;
+    }
+
+    #about {
+        padding: 20px 20px;
+        color: red;
+        font-family: 'Amita';
+    }
+
+    #plans {
+        padding: 20px 20px;
+        color: red;
+        font-family: 'Amita';
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 25px;
+    }
+
+    #contact {
+        padding: 20px 20px;
+        color: red;
+        font-family: 'Amita';
+        max-width: 100%;
+        height: 380px;
+    }
+
+    .plan__title {
+        color: rgb(52, 52, 52);
+        font-size: 26px;
+        font-family: 'Lato';
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .fa {
+        text-decoration: none;
+        color: rgb(0, 0, 207);
+        width:70px;
+        height:70px;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .fa:hover {
+        color: red;
+    }
+
+    .circle {
+        display: none;
+    }
+
+    .contact__details {
+        color: rgb(52, 52, 52);
+        font-size: 24px;
+        font-family: 'Lato';
+        font-weight: bold;
+        margin: 20px 0;
+    }
+
+    .contacts__text-address {
+        color: rgb(52, 52, 52);
+        font-family: 'Lato';
+        font-size: 26px;
+        margin: 0 0 5px;
+        font-weight: bold;
+        padding: 8px 23px 8px 0;
+    }
+
+    .contacts__text-contact {
+        color: rgb(52, 52, 52);
+        font-family: 'Lato';
+        font-size: 26px;
+        font-weight: bold;
+        margin: 0 0 5px;
+        padding: 8px 15px 0 0;
+    }
+
+    a .contacts__link {
+        font-family: 'Lato';
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+
+    }
+
+    a {
+        color: rgb(52, 52, 52);
+    }
+
+    .contacts__link {
+        padding: 8px 0 0 15px;
+    }
+
+    .contacts__address {
+
+        color: rgb(52, 52, 52);
+        font-family: 'Lato', sans-serif;
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+    address {
+        padding: 8px 0 8px 15px;
+    }
+
+    .contact__social-media{color:red;
+    margin-top:20px;}
+
+    .footer{background-color:rgb(52, 52, 52) ;
+    width:100%;
+height:30px;}
+}
+
+/*
 .header {
     background-color: white;
     height: 60px;
@@ -59,7 +314,7 @@
 
 .nav-link {
     color: black;
-    font-family: Lato;
+    font-family: 'Lato';
     font-size: 18px;
     text-decoration: none;
     font-weight: bold;
@@ -85,7 +340,7 @@
     display: block;
     position: absolute;
     left: 100px;
-    top: 350px;
+    top: 320px;
     width: 180px;
     height: 40px;
 
@@ -105,9 +360,7 @@
 
 
 
-.content__page {
-    position: relative;
-}
+
 
 .content__extract-name {
     color: red;
@@ -118,21 +371,13 @@
     font-family: 'Amita';
     line-height: 100px;
 }
+
 /* finished*/
-
-.circle {
-    padding: 20px 20px;
-    border: 20px solid rgba(246, 123, 123, 0.356);
-    border-radius: 50%;
-    height: 300px;
-    width: 300px;
-}
-
-#about {
+/*
+ #about {
     padding: 20px 20px;
     background-color: white;
-    display: flex;
-    align-items: center;
+
 }
 
 #plans {
@@ -151,16 +396,41 @@ hr {
     color: rgba(62, 62, 62, 0.929)
 }
 
-h2 {
-    font-family: 'homemade apple';
-    color: black;
-    display: flex;
-    align-items: center;
-    padding: 100px 0 50px;
-    font-size: 46px;
+.circle {
+    width: 250px;
+    height: 250px;
+    display: block;
 }
 
-.background-image {
-    display: block;
-    width: 100%;
+.about {
+    font-family: 'Amita';
+    font-size: 50px;
+    color: rgb(227, 1, 1);
+    position: absolute;
+    left: 150px;
+    top: 600px
 }
+
+.container__about {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+}
+
+.plans {
+    font-family: 'Amita';
+    font-size: 50px;
+    color: rgb(227, 1, 1);
+    position: absolute;
+    left: 150px;
+    top: 900px
+}
+
+.contact {
+    font-family: 'Amita';
+    font-size: 50px;
+    color: rgb(227, 1, 1);
+    position: absolute;
+    left: 150px;
+    top: 1200px
+}*/

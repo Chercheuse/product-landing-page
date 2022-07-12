@@ -13,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Amita&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -31,36 +32,103 @@
   </header>
   <section class="content">
     <div class="content__page">
-      <img class='background-image' alt="The girl is learning french sitting on the dictionary" src="img\frenchjpg.jpg">
-      <div class='flex'>
+      <!--<img class='background-image' alt="The girl is learning french sitting on the dictionary" src="img\frenchjpg.jpg">-->
+      <div class="flex">
         <h1 class="content__extract-name">French is<br> easy</h1>
 
         <button type="button" class="action-button"><a href="#plans" class="action-text">Choose your plan</a></button>
       </div>
 
       <section id='about'>
-        <div class="circle">
-          <h2> About us</h2>
+        <!--<img class='circle' alt="circle" src="img\ellipse.png">-->
+        <div class="container__about">
+          <h2 class="about__title"> About us</h2>
+          <p class="about__text">
+            The language school "French is easy" started its activity in 2008.
+
+            Since then, we have been actively developing, continuously analyzing our work, quickly trying to make
+            adjustments to the educational process to improve it. The dynamics of growth in all its aspects is extremely
+            important for us: from educational and organizational to household.
+
+            For teaching, we have developed our methodology with a combination of all aspects of speech: spoken,
+            grammatical, listening and written. We place the greatest emphasis on spoken language.</p>
         </div>
       </section>
 
       <hr>
 
       <section id='plans'>
-        <div class="circle">
-          <h2> Plans</h2>
-        </div>
+        <!--<img class='circle' alt="circle" src="img\ellipse.png">-->
+        <h2 class="plans__title">Plans</h2>
+        <article class="plan">
+          <p class="plan__title">Individual</p>
+          <ul>
+            <li>55 minute sessions</li>
+            <li>24/7 scheduling options</li>
+            <li>Conversation clubs with native speakers</li>
+            <li>Free first class</li>
+            <li>35 classes per course</li>
+          </ul>
+          <p class="price">60$ per month</p>
+        </article>
+        <article class="plan">
+          <p class="plan__title">Group Classes</p>
+          <ul>
+            <li>55 minute sessions</li>
+            <li>35 classes per course</li>
+            <li>Groups of 5-6 students</li>
+            <li>24/7 scheduling options</li>
+            <li>Free first class</li>
+          </ul>
+          <p class="price">50$ per month</p>
+        </article>
+        <article class="plan">
+          <p class="plan__title">Mixed</p>
+          <ul>
+            <li>2 lessons in a group + 2 independently</li>
+            <li>Individual consultations with a teacher</li>
+            <li>Conversation clubs with native speakers</li>
+            <li>Online lessons on interactive textbook</li>
+            <li>Free first class</li>
+
+          </ul>
+          <p class="price">70$ per month</p>
+        </article>
+
       </section>
+
       <hr>
+
       <section id='contact'>
-        <div class="circle">
-          <h2>Contact</h2>
-          <p></p>
+        <img class='circle' alt="circle" src="img\ellipse.png">
+        <h2 class="contact__title">Contact</h2>
+        <p class="contact__details">Feel free to contact us if you have any questions</p>
+        <div class="contacts__address">
+          <p class="contacts__text-address">Address</p>
+          <address>104-58 109th St, Jamaica,<br>NY 11419, USA<br> </address>
+        </div>
+        <div class="contacts__address">
+          <p class='contacts__text-contact'>Contacts</p>
+          <p class="contacts__link"><a href="tel:+12345678900" data-action="phone">+1
+              (234)
+              567 89
+              00</a><br>
+            <a class='phone-number'href="mailto:french.school@email.com" data-action="email">french.school@email.com</a><br>
+          </p>
+        </div>
+        <p class="contact__social-media"> We in social medias:</p>
+        <div class="contact__social-icons">
+          <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"></a>
+          <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+          <a href="https://twitter.com/" target="_blank" class="fa fa-twitter"></a>
+          <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
         </div>
       </section>
       <hr>
   </section>
+  <footer class="footer">
 
+  </footer>
 </body>
 
 </html>
