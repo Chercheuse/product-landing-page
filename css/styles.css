@@ -1,3 +1,5 @@
+@import url(fonts.css);
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,8 +7,8 @@
 }
 
 @media (min-width:372px) {
-    .heading {
-        background-image: url(img/frenchjpg.jpg);
+    .page__background {
+        background-image: url(french.jpg);
         max-width: 390px;
         height: 200px;
         background-size: cover;
@@ -55,6 +57,7 @@
         flex: 1;
         align-items: center;
         padding-right: 10px;
+        max-width: 500px;
     }
 
     .nav-link {
@@ -102,12 +105,16 @@
         padding: 40px 0 0 20px;
     }
 
+    .about__text_smallscreens {
+        color: dimgray;
+        margin-left: 0;
+        font-family: 'Lato';
+        font-size: 14px;
+        padding: 0;
+    }
 
     .about__text {
-        color: dimgray;
-        margin-left: 20px;
-        font-family: 'Lato';
-        font-size: 16px;
+        display: none;
 
     }
 
@@ -260,8 +267,8 @@
 
 
 @media (min-width:500px) {
-    .heading {
-        background-image: url(img/frenchjpg.jpg);
+    .page__background {
+        background-image: url(french.jpg);
         max-width: 800px;
         height: 400px;
         background-size: cover;
@@ -357,8 +364,15 @@
         padding: 70px 0 0 40px;
     }
 
+    .about__text_smallscreens {
+        color: dimgray;
+        margin-left: 40px;
+        font-family: 'Lato';
+        font-size: 26px;
+    }
 
     .about__text {
+        display: none;
         color: dimgray;
         margin-left: 40px;
         font-family: 'Lato';
@@ -516,8 +530,8 @@
 
 @media (min-width:800px) {
 
-    .heading {
-        background-image: url(img/frenchjpg.jpg);
+    .page__background {
+        background-image: url(french.jpg);
         background-position: 20%;
         max-width: 1200px;
         height: 500px;
@@ -527,7 +541,7 @@
 
     .header {
         background-color: white;
-        height: 60px;
+        height: 75px;
         border-bottom: 1px solid rgba(175, 210, 252, 0.929);
     }
 
@@ -566,6 +580,7 @@
         display: flex;
         flex-direction: row;
 
+
     }
 
     .nav-bar__menu {
@@ -574,7 +589,8 @@
         gap: 20px;
         flex: 1;
         align-items: center;
-        padding-right: 20px;
+
+        max-width: 1200px
     }
 
     .nav-link {
@@ -593,9 +609,10 @@
 
     .background-image {
         display: block;
+        background-size: cover;
         position: relative;
         left: 280px;
-        max-width: 1000px;
+        max-width: 1200px;
     }
 
     .action-button {
@@ -651,19 +668,22 @@
         color: rgba(62, 62, 62, 0.929)
     }
 
-    .about {
+    .about__title {
         font-family: 'Amita';
-        font-size: 50px;
+        font-size: 24px;
         color: rgb(227, 1, 1);
-        position: absolute;
-        left: 150px;
-        top: 600px
+        padding: 10px;
+        width: 30px;
+
+
     }
 
     .container__about {
         display: flex;
         flex-direction: row;
-        flex-basis: 100%;
+        flex-basis: 50%;
+        justify-content: flex-start;
+
     }
 
     .plans {
@@ -688,12 +708,17 @@
         line-height: 60px;
     }
 
+    .about__text_smallscreens {
+        display: none;
+    }
 
     .about__text {
+        display: block;
         color: dimgray;
-        margin-left: 30px;
+        margin-left: 50px;
         font-family: 'Lato';
         font-size: 18px;
+        padding-left: 25px;
 
     }
 
@@ -739,7 +764,7 @@
         font-family: 'Amita';
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         gap: 20px;
 
     }
